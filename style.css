@@ -6,3 +6,8 @@
 body {
     background: linear-gradient(to right);
 }
+
+.clock {
+    width: 300px;
+    height: 300px;
+}
