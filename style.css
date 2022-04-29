@@ -50,4 +50,25 @@ body {
     transform-orign: bottom;
     z-index: 10;
     transform: translateX(-50%) rotate (calc(var(--rotation) *1 deg )); 
+    
 }
+
+.clock .hand.second {
+    width: 5 px ;
+    height: 45 % ;
+    background-color: red;
+}
+
+.clock .hand.minute {
+    width: 5px ;
+    height: 40 % ;
+    background-color: black;
+}
+
+.clock .hand.hour {
+    width: 10px ;
+    height: 35 % ;
+    background-color: black;
+}
+
+
