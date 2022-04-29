@@ -6,6 +6,7 @@
 body {
     lighting-color: aliceblue;
     image-rendering: auto;
+    nav-index: auto;
     background: linear-gradient(to right);
 }
 
