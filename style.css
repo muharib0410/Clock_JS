@@ -52,7 +52,17 @@ body {
     transform: translateX(-50%) rotate (calc(var(--rotation) *1 deg )); 
     
 }
-
+.clock::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    z-index:11;
+    width: 15px;
+    height:15px;
+    top: 50% ;
+    left: 50%;
+    transform:
+}
 .clock .hand.second {
     width: 5 px ;
     height: 45 % ;
