@@ -4,5 +4,8 @@
 }
 
 body {
+    image-rendering: auto;
     background: linear-gradient(to right);
 }
+
+
