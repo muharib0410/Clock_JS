@@ -4,13 +4,13 @@
 }
 
 body {
-    background: linear-gradient(to right);
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));;
 }
 
 .clock {
     width: 300px;
     height: 300px;
-    background-color: rgba(500);
+    background-color: rgba(255, 255, 255, -8);
     border-radius: 50%;
     border: 2px solid black;
     position: relative; 
@@ -63,7 +63,7 @@ body {
     left: 50%;
 
 }
-/* BU YERDA SIZNING REKLAMANGIZ BOLISHI MUMKIN EDI*/
+
 .clock .hand.second {
     width: 5px ;
     height: 45% ;
